@@ -15,7 +15,7 @@
                 class="gif"
                 id="gif"
             />
-            <video autoplay loop>
+            <video id="myVideo">
                 <source src = "gambate.mp4"/>
             </video>
             <div class="btn-group">
@@ -31,5 +31,8 @@
             </div>
         </div>
         <script src="script.js"></script>
+        <script>
+            document.getElementById("myVideo").play();
+        </script>
     </body>
 </html>
